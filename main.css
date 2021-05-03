@@ -1,0 +1,111 @@
+html, body, header, p, h1, h2, h3, div, span{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #eee;
+	color:black;
+}
+header{
+	background-color:white;
+	width:100%;
+	position: fixed;
+}
+
+
+h1{
+	font-size:50px;
+}
+span{
+	color:lightblue;
+	margin:0 10px;
+}
+.profileIcon{
+	background-color:white;
+	background-image: url("Images/icon.png");
+	background-position-top:center;
+	background-size:40px 40px;
+	background-repeat:no-repeat;
+	padding:20px;
+	margin: 0 20px 0 0;
+}
+.name{
+	overflow-wrap: break-word;
+	color:#444;
+	font-size: 15px;
+}
+.comment{
+	font-size: 20px;
+	overflow-wrap: break-word;
+}
+.commentBody{
+	width:100%;
+}
+.commentBox{
+	margin:10px 0;
+	padding:10px;
+	background-color: white;
+	min-height: 50px;
+	display:flex;
+}
+.commentHeader{
+	display:flex;
+	justify-content: space-between;
+}
+.delete, .edit{
+	user-select: none;
+	cursor: pointer;
+
+}
+#titleName{
+	font-size: 25px;
+}
+#container{
+	background-color:#ddd;
+	padding:20px;
+	padding-top:150px;
+	padding-bottom:150px;
+}
+#commentSubmit{
+	background-color:white;
+	width:100%;
+	position: fixed;
+	bottom:0px;
+	padding:20px;
+}
+#commentForm{
+	display:flex;
+}
+#nameInput{
+	display:inline-block;
+	margin:5px;
+	width:10%;
+}
+#commentInput{
+	display:inline-block;
+	margin:5px;
+	width:80%;
+}
+.commentSubmit{
+	display:inline;
+	margin:5px;
+	width:10%;
+	padding:4px 0;
+	user-select: none;
+	cursor: pointer;
+}
+.hidden{
+	display:none;
+}
+
+.commentFormEdit{
+	display:block;
+	padding-top:10px;
+}
+.commentInputEdit{
+	width:90%;
+}
+.commentSubmitEdit{
+	user-select: none;
+	cursor: pointer;
+}
